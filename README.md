@@ -1,2 +1,24 @@
 # Image-compression-using-K-means-Clustering
-How to use the K-Means clustering algorithm to compress images by reducing the number of colors while preserving visual quality
+
+## Usage
+* Load an image (e.g., 'bird_small.png')
+
+* Preprocess the image into a suitable format (flatten pixel array)
+
+* Run K-Means clustering on the pixel data
+
+* Replace each pixel with its cluster centroid color
+
+* Display original and compressed images side by side
+
+## Applications
+This technique can be used for:
+
+* Reducing image file sizes
+
+* Creating artistic effects with limited color palettes
+
+* Preprocessing for image analysis tasks
+
+* Efficient storage of images in memory-constrained environments
+
